@@ -2,10 +2,10 @@ import requests
 from telegram import Update
 from telegram.ext import ApplicationBuilder, CommandHandler, MessageHandler, ContextTypes, filters
 
-# 🔑 Вставь свой API ключ от OpenWeatherMap
+
 OPEN_WEATHER_API_KEY = "e73c2cd7e6048afad5bc41df1a6d1a8c"
 
-# 🤖 Вставь токен своего Telegram-бота
+
 BOT_TOKEN = "7150781796:AAG_Kq_kcanuWWJ3QL7G1H_eAGvEmPy_be5Nw"
 
 async def start(update: Update, context: ContextTypes.DEFAULT_TYPE):
